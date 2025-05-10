@@ -1,0 +1,29 @@
+.article {
+  &-keyWord {
+    color: $color-primary;
+    &-popularity {
+      display: inline-block;
+      padding: 6px 12px;
+      background-color: $color-primary;
+      color: #fff;
+      border-radius: 40px;
+      font-size: 16px;
+    }
+  }
+  &-title {
+    font-weight: 700;
+  }
+  &-text {
+    color: $color-secondary;
+  }
+  &-link {
+    color: $color-secondary;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    &:hover {
+      background-color: darken($color-secondary, 20%);
+      color: lighten($color-secondary, 20%);
+    }
+  }
+}
