@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
 @import "base/variable";
 @import "reset/reset";
+@import "utils/utils";
 @import "base/mixin";
 @import "base/base";
+@import "pages/card";
 @import "main/main";

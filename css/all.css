@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -134,29 +135,6 @@ table {
   border-spacing: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Noto Sans TC", sans-serif;
-  line-height: 1.5;
-  font-weight: 500;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-}
-
 .container {
   max-width: 1320px;
   margin: 0 auto;
@@ -209,6 +187,40 @@ a {
   margin-bottom: 16px;
 }
 
+.fw-700 {
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 設定顯示 2 行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 @media (max-width: 1200px) {
   .article-body {
     width: 50%;
@@ -236,10 +248,6 @@ a {
   background-color: #0027d5;
   color: #fff;
   border-radius: 40px;
-  font-size: 16px;
-}
-.article-title {
-  font-weight: 700;
 }
 .article-text {
   color: #4b4b4b;

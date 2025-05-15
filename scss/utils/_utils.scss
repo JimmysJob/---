@@ -1,0 +1,55 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.row {
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.col-4 {
+  width: 33.3333%;
+  padding: 0 12px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.fs-1 {
+  font-size: 24px;
+}
+
+.fs-2 {
+  font-size: 28px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.my-10 {
+  margin: 40px 0;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
